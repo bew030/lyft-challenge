@@ -6,6 +6,6 @@ WORK NOTEBOOKS: This folder contains the jupyter notebooks and the datasets that
 
 WRITINGS: This folder continas the report that we had submitted to the Lyft's Data Challenge and an extended report that goes more in depth into the data. We would highly suggest reading the extended report if you are unfamiliar with the data or the challenge 
 
-// potentially include the instructions to the data challenge, depending on if Lyft Challenge lets you do so 
+Out of respect to Lyft and their data scientists, we've gone ahead and deleted the datasets. You can find out more in the writings folder.
 
 Special thanks to Lyft for providing us with this amazing opportunity!
