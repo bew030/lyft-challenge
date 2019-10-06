@@ -1,6 +1,7 @@
 # Lyft Data Challenge
 
-Created by Bernard Wong (bew030@ucsd.edu) and Jonathan Gong (jgong11@illinois.edu) 
+Created by Bernard Wong (bew030@ucsd.edu) and Jonathan Gong (jgong11@illinois.edu)
+
 We were recently prompted with the task of creating a business report for Lyft's most recent Data Challenge. With the given datasets involving driver, ride, and time, we were asked to answer a few questions: 
 1. What's a Driver's Lifetime Value (i.e., the value of a driver to Lyft over the entire projected lifetime of a driver)
 2.What are the main factors that affect a driver's lifetime value?
