@@ -1,4 +1,4 @@
-# Overview [![HitCount](http://hits.dwyl.io/bew030/lyft-challenge.svg)](http://hits.dwyl.io/bew030/lyft-challenge)
+# Overview 
 
 _Created by Bernard Wong (bew030@ucsd.edu) and Jonathan Gong (jgong11@illinois.edu)_
 
@@ -13,6 +13,10 @@ The following repository contains our [Notebooks](https://github.com/bew030/lyft
 
 Out of respect to Lyft and their data scientists we've gone ahead and deleted the datasets to keep the data safe. We'd like to thank Lyft for providing us with this amazing opportunity and hope that you find our findings interesting. If you have any questions or would like to learn more, please feel free to reach out by email. 
 
-[![HitCount](http://hits.dwyl.io/bew030/lyft-challenge.svg)](http://hits.dwyl.io/bew030/lyft-challenge)
+# Badges
+[![GitHub issues](https://img.shields.io/github/issues/bew030/lyft-challenge?color=purple)](https://github.com/bew030/lyft-challenge/issues)
+[![GitHub forks](https://img.shields.io/github/forks/bew030/lyft-challenge?color=orange)](https://github.com/bew030/lyft-challenge/network)
+[![GitHub stars](https://img.shields.io/github/stars/bew030/lyft-challenge)](https://github.com/bew030/lyft-challenge/stargazers)
+[![Views](http://hits.dwyl.io/bew030/lyft-challenge.svg)](http://hits.dwyl.io/bew030/lyft-challenge)
 
 
