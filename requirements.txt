@@ -1,0 +1,4 @@
+numpy==1.16.4
+pandas==0.24.2
+matplotlib==3.1.1
+ipykernel==5.1.1
