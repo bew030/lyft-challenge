@@ -32,7 +32,7 @@ We were given 3 different datasets; one giving us the information about drivers 
 
 _Drivers Dataset_
 
-![Drivers Dataset](https://github.com/bew030/lyft-challenge/blob/master/docs/ss/1.png)
+![Drivers Dataset](https://github.com/bew030/lyft-challenge/blob/master/docs/ss/1.png =200x)
 
 The Drivers dataset is relatively simple and clean. The dataset contains driver IDs and when each driver joined Lyft. Overall, the onboard dates were realistic and there were no repeats of driver IDs, making this dataset ready for use.
 
