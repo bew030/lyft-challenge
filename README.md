@@ -9,7 +9,7 @@ We were recently prompted with the task of creating a business report for Lyft's
 4. Do all drivers act alike? Are there specific segments of drivers that generate more value for Lyft than the average driver?
 5. What actionable recommendations are there for the business? 
 
-The following repository contains our [Notebooks](https://github.com/bew030/lyft-challenge/tree/master/work%20notebooks) with the code used to clean, analyze, and visualize the data, and the [written reports](https://github.com/bew030/lyft-challenge/tree/master/writings) that show our findings. Our [final submitted report](https://github.com/bew030/lyft-challenge/blob/master/writings/submitted_lyft_paper.pdf) contains our thought process as well as our results and answers to the questions. You can also find our results of our week long exploration in the rest of this README. 
+The following repository contains our [notebooks](https://github.com/bew030/lyft-challenge/tree/master/work%20notebooks) with the code used to clean, analyze, and visualize the data, and the [written reports](https://github.com/bew030/lyft-challenge/tree/master/writings) that show our findings. Our [final submitted report](https://github.com/bew030/lyft-challenge/blob/master/writings/submitted_lyft_paper.pdf) contains our thought process as well as our results and answers to the questions. You can also find our results of our week long exploration in the rest of this README. 
 
 Out of respect to Lyft and their data scientists we've gone ahead and deleted the datasets to keep the data safe. We'd like to thank Lyft for providing us with this amazing opportunity and hope that you find our findings interesting. If you have any questions or would like to learn more, please feel free to reach out by email. 
 
