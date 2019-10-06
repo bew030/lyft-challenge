@@ -32,7 +32,7 @@ We were given 3 different datasets; one giving us the information about drivers 
 
 _Drivers Dataset_
 
-![Drivers Dataset][drivers_dataset]
+![Drivers Dataset](https://github.com/bew030/lyft-challenge/blob/master/docs/ss/1.png)
 
 The Drivers dataset is relatively simple and clean. The dataset contains driver IDs and when each driver joined Lyft. Overall, the onboard dates were realistic and there were no repeats of driver IDs, making this dataset ready for use.
 
@@ -165,7 +165,7 @@ We'd like to make some further improvements on coming up with actionable recomme
 [![Views](http://hits.dwyl.io/bew030/lyft-challenge.svg)](http://hits.dwyl.io/bew030/lyft-challenge)
 
 
-[drivers_dataset]: <img src="./docs/ss/1.png" "width=100x"/>
+[drivers_dataset]: ./docs/ss/1.png width=100x
 [rides_dataset]: ./docs/ss/2.png
 [rides_formula]: ./docs/ss/3.png
 [pivot]: ./docs/ss/4.png
