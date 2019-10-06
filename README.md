@@ -27,5 +27,15 @@ pip install requirements.txt
 ```
 
 # The Report
-## Introduction
+**Introduction**
+
+**Understanding and Cleaning the Data** 
+
+**Combining the Dataframes**
+
+**Analysis and Results** 
+
+**Conclusion**
+
+**What's Next?** 
 
