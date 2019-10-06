@@ -165,7 +165,7 @@ We'd like to make some further improvements on coming up with actionable recomme
 [![Views](http://hits.dwyl.io/bew030/lyft-challenge.svg)](http://hits.dwyl.io/bew030/lyft-challenge)
 
 
-[drivers_dataset]: <src="./docs/ss/1.png" "width=100x"/>
+[drivers_dataset]: <img src="./docs/ss/1.png" "width=100x"/>
 [rides_dataset]: ./docs/ss/2.png
 [rides_formula]: ./docs/ss/3.png
 [pivot]: ./docs/ss/4.png
