@@ -1,4 +1,4 @@
-# Lyft Data Challenge
+# Overview
 
 _Created by Bernard Wong (bew030@ucsd.edu) and Jonathan Gong (jgong11@illinois.edu)_
 
@@ -9,14 +9,10 @@ We were recently prompted with the task of creating a business report for Lyft's
 4. Do all drivers act alike? Are there specific segments of drivers that generate more value for Lyft than the average driver?
 5. What actionable recommendations are there for the business? 
 
+The following repository contains our [Notebooks](https://github.com/bew030/lyft-challenge/tree/master/work%20notebooks) with the code used to clean, analyze, and visualize the data, and the [written reports](https://github.com/bew030/lyft-challenge/tree/master/writings) that show our findings. Our [final submitted report](https://github.com/bew030/lyft-challenge/blob/master/writings/submitted_lyft_paper.pdf) contains our thought process as well as our results and answers to the questions. You can also find our results of our week long exploration in the rest of this README. 
+
+Out of respect to Lyft and their data scientists we've gone ahead and deleted the datasets to keep the data safe. We'd like to thank Lyft for providing us with this amazing opportunity and hope that you find our findings interesting. If you have any questions or would like to learn more, please feel free reach out by email. 
+
+[![HitCount](http://hits.dwyl.io/bew030/lyft-challenge.svg)](http://hits.dwyl.io/bew030/lyft-challenge)
 
 
-# Navigating the Repository
-
-WORK NOTEBOOKS: This folder contains the jupyter notebooks and the datasets that we used to analyze the data and create the datasets. Most of our findings are reported in our writing but the notebooks contain the snippets of code used to help create these visuals. They are separated into different workshops which contain parts that me and my partner worked on respectively; if you want to see a cleaner version of the code and visuals utilyze the results notebook. Along with that, we created a csv file that contains a dataset that combines the three datasets that had been given to us to use in the challenge which is titled 'combined_lyft_dataset.csv' and can be found in the datasets folder within the work notebooks folder. 
-
-WRITINGS: This folder continas the report that we had submitted to the Lyft's Data Challenge and an extended report that goes more in depth into the data. We would highly suggest reading the extended report if you are unfamiliar with the data or the challenge 
-
-Out of respect to Lyft and their data scientists, we've gone ahead and deleted the datasets. You can find out more in the writings folder.
-
-Special thanks to Lyft for providing us with this amazing opportunity!
