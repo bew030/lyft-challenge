@@ -32,18 +32,24 @@ We were given 3 different datasets; one giving us the information about drivers 
 
 _Drivers Dataset_
 
-![Drivers Dataset](https://github.com/bew030/lyft-challenge/blob/master/docs/ss/1.png =200x)
+<p align="center">
+	<img src="https://github.com/bew030/lyft-challenge/blob/master/docs/ss/1.png" width=300/>
+</p>
 
 The Drivers dataset is relatively simple and clean. The dataset contains driver IDs and when each driver joined Lyft. Overall, the onboard dates were realistic and there were no repeats of driver IDs, making this dataset ready for use.
 
 _Rides Dataset_ 
 
-![Rides Dataset](https://github.com/bew030/lyft-challenge/blob/master/docs/ss/2.png)
+<p align="center">
+	<img src="https://github.com/bew030/lyft-challenge/blob/master/docs/ss/2.png"/>
+</p>
 The Ride dataset contains driver IDs, ride IDs, ride distances in meters, ride duration in seconds, and the prime time percentage. Unlike the Drivers Dataset, the Rides Dataset has repeats of Driver ID. However, each ride ID is unique which means that we have distinct information for a variety of different Lyft rides. 
 
 Because we knew we wanted to do an analysis regarding different types of costs, we decided to create extra data about the cost to the rider with and without prime time as well as calculate the profit that Lyft would get with each ride. Because our mileage rates were in miles and our duration rates were in minutes, we first converted the distance and duration to the proper units. Afterwards, we created formulas for the cost of the ride for the rider including prime time and San Francisco tax and the profit Lyft made per ride assuming that they take 20% of the cost of the ride (according to [Money Under 30](https://www.moneyunder30.com/driving-for-uber-or-lyft)). Here were the formulas that we created:
 
-![Rides Formula](https://github.com/bew030/lyft-challenge/blob/master/docs/ss/3.png)
+<p align="center">
+	<img src="https://github.com/bew030/lyft-challenge/blob/master/docs/ss/3.png"/>
+</p>
   
 As a result, we now had a dataframe that also included information about the cost to the rider as well as the profits that Lyft makes for each ride. 
 
@@ -51,11 +57,15 @@ _Time Dataset_
 
 The time dataset contained information about ride IDs, types of events (which include when the ride was requested by the rider, when a driver accepted the request, when the driver arrived at the requested location, when the rider entered the driver’s vehicle, and when the driver dropped off the rider), and the timestamp of each event occurring. We noticed that each ride ID repeated five times and instead had unique timestamps for the five different events that occurred in each ride. As a result, rather than have a ride repeat five times, we decided to transform and pivot the data frame to make it more organized.
 
-![Pivot](https://github.com/bew030/lyft-challenge/blob/master/docs/ss/4.png)
+<p align="center">
+	<img src="https://github.com/bew030/lyft-challenge/blob/master/docs/ss/4.png"/>
+</p>
 
 Along with that, we created some additional columns that had the measurements between each of the events. This information tells us how long the rider has to wait to get a ride, how long the driver has to wait to pick up the rider, and how long the trip is overall.
 
-![Time Dataset](https://github.com/bew030/lyft-challenge/blob/master/docs/ss/5.png)
+<p align="center">
+	<img src="https://github.com/bew030/lyft-challenge/blob/master/docs/ss/5.png"/>
+</p>
 
 While double checking the data for validity and missingness, we noticed that the amount of time the driver had to wait to pick up a rider was incorrect for some of the rides. Some of the measurements were negative, meaning that the driver had picked up the rider before arriving at the location. Because there was a reasonably sized portion of rides with negative pick up times, we decided to replace the times with a placeholder (np.NaN) rather than get rid of the data. We were cognisant of this erroneous data and as a result we didn’t do too much data manipulation regarding that column. However, the other columns had relatively reasonable data points and no missing data or negative times, so as a result we feel that this data can still prove to be valuable. After rotating and cleaning, the dataset is now ready for use. 
 
@@ -70,12 +80,16 @@ _WHAT IS THE AVERAGE PROJECTED LIFETIME OF A DRIVER?_
 Our final merged data frame combines both information about driver and times which means we can start to predict average projected lifetime of a driver. Before we could even begin to calculate averages though,  we needed to determine what the lifetime of each Lyft driver in our dataset was. We determined that the number of days between the driver’s onboard date and the driver’s last drive would represent the lifetime of a driver. As a result, we were able to manipulate the data frame and come up with a lifetime expectancy for each of the drivers in our dataset. 
 
 The first item that we created was a boxplot of driver lifetimes. This boxplot helps us easily identify any outliers that lie outside the 1.5 IQR range. Because there are no data points outside the bounds we see that there are no outliers in driver lifetimes, which is a great sign for the data. 
-![Boxplot](https://github.com/bew030/lyft-challenge/blob/master/docs/ss/6.png)
+<p align="center">
+	<img src="https://github.com/bew030/lyft-challenge/blob/master/docs/ss/6.png"/>
+</p>
 
 We also calculated the skewness and kurtosis of the lifetimes, which we found to be -0.48 and -0.56 respectively. The skewness tells us that the data is slightly skewed to the left, but because the absolute value of the skewness is still less than .5 we can conclude that the data is relatively normal. The kurtosis value tells us that there’s a low chance for outliers, which reinforces the results we got from the boxplot. 
 
 Plotting out the density histogram of lifetime confirms our previous results. We see that the lifetimes are relatively normal meaning that there shouldn’t be too big of a difference between the mean and median being a representation of the average lifetime. Because there is still a very slight skewness though, our conclusion is that the median will most likely be a better representation of the average projected lifetime, which means that once a driver is onboarded, we predict that ___they will typically continue driving for Lyft for 55 days.___ 
-![Histogram][histogram]
+<p align="center">
+	<img src="https://github.com/bew030/lyft-challenge/blob/master/docs/ss/7.png"/>
+</p>
 
 _WHAT IS A DRIVER'S LIFETIME VALUE, OR THE VALUE A DRIVER BRINGS TO LYFT OVER THE PROJECTED LIFETIME?_
 <!-- <img src = “”
