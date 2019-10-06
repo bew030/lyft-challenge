@@ -19,4 +19,9 @@ Out of respect to Lyft and their data scientists we've gone ahead and deleted th
 [![GitHub stars](https://img.shields.io/github/stars/bew030/lyft-challenge)](https://github.com/bew030/lyft-challenge/stargazers)
 [![Views](http://hits.dwyl.io/bew030/lyft-challenge.svg)](http://hits.dwyl.io/bew030/lyft-challenge)
 
+# Installation 
+To ensure that the Jupyter Notebooks run properly, use the package manager [pip](https://pip.pypa.io/en/stable/) to install requirements.txt
 
+```bash
+pip install requirements.txt
+```
