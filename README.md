@@ -157,10 +157,10 @@ The data primarily consisted of rides within a three month period. This could gr
 [![Views](http://hits.dwyl.io/bew030/lyft-challenge.svg)](http://hits.dwyl.io/bew030/lyft-challenge)
 
 
-[Drivers Dataset]: ./docs/ss/1.png
-[Rides Dataset]: ./docs/ss/2.png
-[Rides Formula]: ./docs/ss/3.png
-[Pivot]: ./docs/ss/4.png
-[Time Dataset]: ./docs/ss/5.png
-[Boxplot]: ./docs/ss/.png
-[Histogram]: ./docs/ss/.png
+[drivers_dataset]: ./docs/ss/1.png
+[rides_dataset]: ./docs/ss/2.png
+[rides_formula]: ./docs/ss/3.png
+[pivot]: ./docs/ss/4.png
+[time_dataset]: ./docs/ss/5.png
+[boxplot]: ./docs/ss/.png
+[histogram]: ./docs/ss/.png
