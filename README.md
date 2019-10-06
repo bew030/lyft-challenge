@@ -25,3 +25,4 @@ To ensure that the Jupyter Notebooks run properly, use the package manager [pip]
 ```bash
 pip install requirements.txt
 ```
+
