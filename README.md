@@ -1,4 +1,6 @@
-# Overview 
+# Overview <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Lyft_logo.svg/220px-Lyft_logo.svg.png" align="right" height="45">
+
+
 
 _Created by Bernard Wong (bew030@ucsd.edu) and Jonathan Gong (jgong11@illinois.edu)_
 
