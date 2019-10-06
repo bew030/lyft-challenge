@@ -1,4 +1,4 @@
-# Overview
+# Overview [![HitCount](http://hits.dwyl.io/bew030/lyft-challenge.svg)](http://hits.dwyl.io/bew030/lyft-challenge)
 
 _Created by Bernard Wong (bew030@ucsd.edu) and Jonathan Gong (jgong11@illinois.edu)_
 
