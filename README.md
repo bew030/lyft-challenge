@@ -9,13 +9,13 @@ We were recently prompted with the task of creating a business report for Lyft's
 4. Do all drivers act alike? Are there specific segments of drivers that generate more value for Lyft than the average driver?
 5. What actionable recommendations are there for the business? 
 
-The following repository contains our [notebooks](https://github.com/bew030/lyft-challenge/tree/master/work%20notebooks) with the code used to clean, analyze, and visualize the data, and the [written reports](https://github.com/bew030/lyft-challenge/tree/master/writings) that show our findings. Our [final submitted report](https://github.com/bew030/lyft-challenge/blob/master/writings/submitted_lyft_paper.pdf) contains our thought process as well as our results and answers to the questions. You can also find our results of our week long exploration in the rest of this README. 
+The following repository contains our [notebooks](https://github.com/bew030/lyft-challenge/tree/master/work%20notebooks) with the code used to clean, analyze, and [visualize the data](https://github.com/bew030/lyft-challenge/tree/master/docs), and the [written reports](https://github.com/bew030/lyft-challenge/tree/master/writings) that show our findings. Our [final submitted report](https://github.com/bew030/lyft-challenge/blob/master/writings/submitted_lyft_paper.pdf) contains our thought process as well as our results and answers to the questions. You can also find our results of our week long exploration in the rest of this README. 
 
 Out of respect to Lyft and their data scientists we've gone ahead and deleted the datasets to keep the data safe. We'd like to thank Lyft for providing us with this amazing opportunity and hope that you find our findings interesting. If you have any questions or would like to learn more, please feel free to reach out by email or leave an issue.  
 
 
 # Installation 
-To ensure that the Jupyter Notebooks run properly, use the package manager [pip](https://pip.pypa.io/en/stable/) to install requirements.txt
+To ensure that the Jupyter Notebooks run properly, use the package manager [pip](https://pip.pypa.io/en/stable/) to install requirements.txt. The packages that we used were Numpy, Matplotlib, Pandas, and SciPy.
 
 ```bash
 pip install requirements.txt
@@ -33,6 +33,7 @@ We were given 3 different datasets; one giving us the information about drivers 
 _Drivers Dataset_
 
 ![Drivers Dataset][drivers_dataset]
+
 The Drivers dataset is relatively simple and clean. The dataset contains driver IDs and when each driver joined Lyft. Overall, the onboard dates were realistic and there were no repeats of driver IDs, making this dataset ready for use.
 
 _Rides Dataset_ 
@@ -144,11 +145,18 @@ Our recommendation for the company is to focus on this issue and perhaps create 
 
 **Conclusion**
 
-Overall, we were able to discover many valuable lessons from the data that was measured. However, there are a few points that are worth acknowledging. 
+Overall, we were able to discover many valuable lessons from the data that was measured. However, there are a few points that are worth acknowledging.
 
-The data primarily consisted of rides within a three month period. This could greatly affect many things, the largest being the projected life time. We assumed that the ride dataset contained the full careers of drivers but this may not necessarily be true. In the future it would be useful to have information about a broader range of rides so that we can account items such as seasonal changes and general changes in driver behavior. Along with that
+The data primarily consisted of rides within a three month period which could greatly affect many things, the largest being the projected life time. We assumed that the ride dataset contained the full careers of drivers but this may not necessarily be true. In the future it would be useful to have information about a broader range of rides so that we can account items such as seasonal changes and general changes in driver behavior. 
+
+We also strongly valued business quality and customer satisfaction, and while we used rider waiting time as a measure of business quality, there are many other measurements that could be used as well. Rider ratings and rider tip amounts would be a great way to measure the quality of drivers and could help us quantify business quality accurately. 
+
+As the ride sharing industry grows, the impact Lyft has on the transportation industry and on drivers will grow with it. We believe that these points that we’ve discovered will not only help Lyft grow as a company but also ensure that the impact that Lyft has on its driver and the transportation industry is a positive one. 
+
 
 # What's Next? 
+
+We'd like to make some further improvements on coming up with actionable recommendations for the company. We mentioned the disparity between beginners and experienced drivers and a potential bonus to encourage drivers to encourage drivers to continue, but we'd like to incorporate some analytical methods to come up with a concrete amount for the bonus. 
 
 # Badges
 [![GitHub issues](https://img.shields.io/github/issues/bew030/lyft-challenge?color=purple)](https://github.com/bew030/lyft-challenge/issues)
